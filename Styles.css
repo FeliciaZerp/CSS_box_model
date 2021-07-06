@@ -1,0 +1,50 @@
+body {
+  background-color: #fefefa;
+  color: #202121;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: medium;
+  line-height: 1.6em;
+  /*Verkorte versie: font: normal medium 1.6em "Open Sans", sans-serif;*/
+}
+h1,
+h3,
+p,
+img,
+a {
+  margin: 5px;
+  padding: 3px 2px 3px 2px;
+  padding: 3px 2px;
+}
+.header {
+  background-color: #6699cc;
+  border-color: #fefefa;
+  border-style: double;
+  border-width: 5px;
+  /*Verkorte versie: border: 5px double #fefefa*/
+}
+.header-title {
+  color: #fefefa;
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  background-color: #e5e5e5;
+  border: 5px double #fefefa;
+  margin: 8px 0;
+}
+.sub-header {
+  color: #6699cc;
+}
+.footer {
+  background-color: #6699cc;
+  border: 5px double #fefefa;
+  /*Volgens de opdracht width: 250px;
+  margin: 0 auto;
+  text-align: center;*/
+}
+.ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
